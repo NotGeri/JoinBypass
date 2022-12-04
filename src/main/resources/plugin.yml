@@ -1,0 +1,12 @@
+name: JoinBypass
+version: 1.0
+main: dev.geri.joinbypass.JoinBypass
+api-version: 1.13
+prefix: JoinBypass
+authors: [Geri]
+description: A super simple plugin to bypass the player join limit using a permission
+website: https://geri.dev
+permissions:
+  joinbypass.use:
+    description: Allows you to bypass the player limit
+    default: op
